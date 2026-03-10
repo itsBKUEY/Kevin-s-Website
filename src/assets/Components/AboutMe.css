@@ -1,0 +1,50 @@
+
+.image_left{
+  width: 25em;
+  height: 40em;
+  object-fit: cover;
+}
+
+.imageAboutme{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+}
+
+.imageAboutme h2{
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+.imageAboutme p{
+  margin: 0;
+  color: #444;
+  line-height: 1.6;
+}
+
+
+.box2 {
+  background: white;
+
+  padding: 22px;
+  height: 30em;
+
+  border-radius: 3px;
+
+  box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+}
+
+
+/*
+.box{
+  border-left: 6px solid #006C2D;
+  background: white;
+  padding: 22px;
+  margin: 18px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+*/
