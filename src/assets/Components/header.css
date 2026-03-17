@@ -2,22 +2,60 @@
 
 
 .header {
-  position: fixed;
-  top: -120px;           
+  /*position: fixed;*/
   left: 0;
-  width: 100%;
+  /*Why it's width is not 100%? lord knows, I have tried everything, but it just won't work, 
+  I have to set it to 95% which is really weird, but it works, so I'm not complaining. */
+  width: 97%;
 
- background-color: #96AE6B;
+ /*background-color:linear-gradient(to bottom, #ffffff, #c5c5c5);*/
+
+
   color: #F4F4F4;
-  border-bottom: 6px solid #006C2D;
+  border-bottom: 6px solid #aca59e;
 
   padding: 16px 30px;
 
   transition: top 0.35s ease;
 
+
   box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  background-color: rgba(0, 0, 0, 0.15); 
+  backdrop-filter: blur(8px);
+
+
   z-index: 1000;
+  
+  overflow-x: hidden
 }
+
+.header:hover {
+ background-color:linear-gradient(to bottom, #c5c5c5, #ffffff);
+}
+
+
+.headerContent {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  overflow-x: hidden
+
+}
+
+.headerLink {
+  font-weight: 500;
+  color: #F4F4F4 ;
+  text-decoration: inherit;
+  transition: color 0.20s ease-in-out; 
+}
+
+.headerLink:hover {
+  color: #aca59e;
+  text-decoration:underline;
+  text-decoration-thickness: 2.25px;
+}
+
+/*
 
 .header.peek {
   top: -70px;
@@ -32,6 +70,7 @@
   padding: 50px 60px;
   
 }
+  */
 
 .stuff :hover { 
   background-color: #F4F4F4;
