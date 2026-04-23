@@ -1,0 +1,34 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  background-image: linear-gradient(to bottom, #ffffff, #c5c5c5);
+  overflow: hidden;
+}
+
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.header { 
+  line-height: 1.5em;
+  color: #222;
+}
+
+
+/*
+
+
+REVAMPED CSS STYLING NO LONGER 
+aca59e(beige)
+1E1E24(Black)
+D3CDD7(Off white)
+FFFFFF(White)
+
+*/
+
+
+
+
